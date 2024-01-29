@@ -22,7 +22,9 @@ def game_conditions():
 
 
 def logic_game():
-    negative_result = ("'yes' is wrong answer ;(. Correct answer was 'no'."
+    negative_result_y = ("'yes' is wrong answer ;(. Correct answer was 'no'."
+                       "\nLet's try again, ")
+    negative_result_n = ("'no' is wrong answer ;(. Correct answer was 'yes'."
                        "\nLet's try again, ")
     i = 1
     while i <= 3:
@@ -33,8 +35,11 @@ def logic_game():
                 or random_numb % 2 != 0 and question == 'no'):
             print('Correct!')
             i += 1
+        elif random_numb % 2 == 0 and question == 'no':
+            print(f'{negative_result_n}{name}!')
+            break
         else:
-            print(f'{negative_result}{name}!')
+            print(f'{negative_result_y}{name}!')
             break
         if i > 3:
             print(f'Congratulations, {name}!')
