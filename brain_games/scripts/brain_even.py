@@ -10,7 +10,7 @@ def logic_game():
     print(rule_game)
     count = 1
     while count <= 3:
-        rand_num = engine.random_number()
+        rand_num = engine.random_number(1, 100)
         print(f'Question: {rand_num}')
         if rand_num % 2 == 0:
             result = 'yes'

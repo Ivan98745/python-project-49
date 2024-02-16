@@ -13,8 +13,8 @@ def welcome_user():
     return print('Hello, ' + name + '!')
 
 
-def random_number():
-    number = random.randint(1, 10)
+def random_number(numb_1, numb_2):
+    number = random.randint(numb_1, numb_2)
     return number
 
 
