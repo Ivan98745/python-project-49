@@ -22,5 +22,6 @@ def engine_game(game):
                 print(f'Congratulations, {name}!')
                 break
         else:
-            print(f"\'{question}\'{part_1}\'{parameters[1]}\'.{part_2}{name}!")
+            print(f"\'{question}\' {part_1} \'{parameters[1]}\'."
+                  f"{part_2}{name}!")
             break
