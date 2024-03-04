@@ -1,0 +1,119 @@
+[33mcommit 2e1ed04120c488dc24ded2ce5d4287dba373c791[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Fri Feb 23 18:20:38 2024 +0300
+
+    Added a prime number game
+
+[33mcommit 1c8a57b4bcb9bb14fc9ae175a3fb0f9aa800edad[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Fri Feb 23 16:08:02 2024 +0300
+
+    Added a game progression
+
+[33mcommit f0f3d16d25c4a67efd05305368491bb05ff195d4[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Fri Feb 16 17:01:32 2024 +0300
+
+    Added a Greatest Common Divisor game
+
+[33mcommit 73facd7035928e66d062ae47e9be829c5772294e[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Fri Feb 16 15:49:51 2024 +0300
+
+    Added a calculator game
+
+[33mcommit 57a285bd8ef167c89bd4238bb8885d9562d7d629[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Thu Feb 1 22:29:55 2024 +0300
+
+    Add Game: "Calculator"
+
+[33mcommit fa7517bfc1c6aac93c4e6352bd6e74df24380c13[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Mon Jan 29 18:31:48 2024 +0300
+
+    Add presentation of the Parity Check game
+
+[33mcommit 3f36b9a76d1e3b27d9cf78bfc3d88987c1c65d1f[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Mon Jan 29 17:49:45 2024 +0300
+
+    final assembly at the 5th stage
+
+[33mcommit 9ad5e8a7195149357f99759c36b0fe36f57a309c[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Mon Jan 29 17:47:51 2024 +0300
+
+    Added the condition no
+
+[33mcommit 3aa9403bb1a7fdd4f5f577fd770c2000304fed10[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Mon Jan 29 16:03:37 2024 +0300
+
+    Implementation of the game Parity check
+
+[33mcommit 5f14512dbb6ec60930cfc78b4393c0e8a5fe6f7e[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Mon Jan 29 16:01:16 2024 +0300
+
+    Creature brain_even
+
+[33mcommit 92d80b59486272b15e16d114162fc95e684c6571[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Sun Jan 28 16:49:54 2024 +0300
+
+    added linter
+
+[33mcommit fd7df52b48e0e3344306491a652b98ec8fc1d0ed[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Sun Jan 28 14:21:22 2024 +0300
+
+    Adding third-party libraries
+
+[33mcommit 7a066dc55fd35f5e6e9b61e3c3adeea8628b4dea[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Wed Jan 24 17:18:05 2024 +0300
+
+    Publication
+
+[33mcommit 1ab09ca5b8cbf3b4ed3628acb55a1906df5564f9[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Wed Jan 24 16:46:12 2024 +0300
+
+    update gitignore
+
+[33mcommit c233c0c2d4d4a3b5d327c53e91a1345369907a81[m
+Author: ivan <ivan_a_kalinin@mail.ru>
+Date:   Tue Jan 23 17:57:57 2024 +0300
+
+    Package Initialization
+
+[33mcommit b14ba58c7011d75702b7222d4350d8d509fab0ca[m
+Author: Ivan98745 <148779224+Ivan98745@users.noreply.github.com>
+Date:   Tue Jan 23 15:27:05 2024 +0300
+
+    Update hexlet-check.yml
+
+[33mcommit 987527530a97984ded8d4f24126c8c59f0d41fc1[m
+Author: Ivan98745 <148779224+Ivan98745@users.noreply.github.com>
+Date:   Tue Jan 23 15:24:58 2024 +0300
+
+    Update hexlet-check.yml
+
+[33mcommit 583861c624c433c1f869b4f709b12d105404f115[m
+Author: Ivan98745 <148779224+Ivan98745@users.noreply.github.com>
+Date:   Tue Jan 23 15:18:36 2024 +0300
+
+    Add README.md
+
+[33mcommit a1ed87f84333554a202a3d372779903dcf2b96d0[m
+Author: Ivan98745 <148779224+Ivan98745@users.noreply.github.com>
+Date:   Tue Jan 23 15:18:35 2024 +0300
+
+    Add README.md
+
+[33mcommit c5062ea66a268e1f3d864c251d7ebb287dd48c6d[m
+Author: Ivan98745 <148779224+Ivan98745@users.noreply.github.com>
+Date:   Tue Jan 23 15:18:34 2024 +0300
+
+    Add hexlet-check.yml

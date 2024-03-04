@@ -1,39 +1,26 @@
 import prompt
-import random
 
 
-def greet():
+def engine_game(game):
     greeting = 'Welcome to the Brain Games!'
     print(f'{greeting}')
-
-
-def welcome_user():
-    global name
     name = prompt.string('May I have your name? ')
-    return print('Hello, ' + name + '!')
-
-
-def random_number(numb_1, numb_2):
-    number = random.randint(numb_1, numb_2)
-    return number
-
-
-def negative_result():
+    print('Hello, ' + name + '!')
     part_1 = 'is wrong answer ;(. Correct answer was'
     part_2 = "\nLet's try again, "
-    return (part_1, part_2)
-
-
-def comparing_response(answer):
-    neg_res = negative_result()
-    question = prompt.string('Your answer: ')
-    if str(answer) == question:
-        print('Correct!')
-        return True
-    else:
-        print(f"\'{question}\' {neg_res[0]} \'{answer}\'.{neg_res[1]}{name}!")
-        return False
-
-
-def victory():
-    print(f'Congratulations, {name}!')
+    condition = game.logic_game()
+    print(condition[2])
+    count = 1
+    while count <= 3:
+        parameters = game.logic_game()
+        print(f'Question: {parameters[0]}')
+        question = prompt.string('Your answer: ')
+        if str(parameters[1]) == question:
+            print('Correct!')
+            count += 1
+            if count > 3:
+                print(f'Congratulations, {name}!')
+                break
+        else:
+            print(f"\'{question}\'{part_1}\'{parameters[1]}\'.{part_2}{name}!")
+            break

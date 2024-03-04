@@ -1,12 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "The Mind Games project. It contains 5 games."
 authors = ["ivan <ivan_a_kalinin@mail.ru>"]
+repository = "https://github.com/Ivan98745/python-project-49"
+classifiers = ["Topic :: Games/Entertainment :: Arcade"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,9 +19,11 @@ prompt = "^0.4.1"
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
 
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
