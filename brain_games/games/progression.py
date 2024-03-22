@@ -4,7 +4,7 @@ import random
 CONDITION = 'What number is missing in the progression?'
 
 
-def logic_game():
+def describes_the_logic():
     lst = list(range(random.randint(2, 10),
                random.randint(120, 150),
                random.randint(3, 10)))

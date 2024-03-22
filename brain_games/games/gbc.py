@@ -4,7 +4,7 @@ import random
 CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
-def logic_game():
+def describes_the_logic():
     rand_num_1 = random.randint(1, 100)
     rand_num_2 = random.randint(1, 100)
     expression = f'{rand_num_1} {rand_num_2}'
