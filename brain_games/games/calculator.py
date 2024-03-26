@@ -5,7 +5,7 @@ import random
 CONDITION = 'What is the result of the expression?'
 
 
-def describes_the_logic():
+def get_parameter_game():
     rand_num_1 = random.randint(1, 10)
     rand_num_2 = random.randint(1, 10)
 

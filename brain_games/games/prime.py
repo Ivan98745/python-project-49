@@ -4,7 +4,7 @@ import random
 CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def describes_the_logic():
+def get_parameter_game():
     rand_num = random.randint(3, 100)
     expression = f'{rand_num}'
 
