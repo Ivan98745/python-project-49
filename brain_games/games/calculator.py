@@ -15,4 +15,4 @@ def get_parameter_game():
     choice_sign = random.choice(random_sign)
     result_exp = (choice_sign[1])(rand_num_1, rand_num_2)
     expression = f'{rand_num_1} {choice_sign[0]} {rand_num_2}'
-    return (expression, result_exp)
+    return expression, result_exp
