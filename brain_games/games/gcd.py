@@ -4,7 +4,7 @@ import random
 CONDITION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_parameter_game():
+def get_question_nad_answer():
     rand_num_1 = random.randint(1, 100)
     rand_num_2 = random.randint(1, 100)
     expression = f'{rand_num_1} {rand_num_2}'

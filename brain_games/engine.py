@@ -10,7 +10,7 @@ def starts_game(game):
 
     rounds_count = 3
     for i in range(rounds_count):
-        expression, result = game.get_parameter_game()
+        expression, result = game.get_question_nad_answer()
         print(f'Question: {expression}')
         question = prompt.string('Your answer: ')
 
